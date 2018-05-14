@@ -1,5 +1,5 @@
 <template lang="html">
-  <h1 class="footerTitle"> {{ tarbaTitle }}</h1>
+  <h2 class="footerTitle"> {{ tarbaTitle }}</h2>
 </template>
 
 <script>
@@ -16,11 +16,9 @@ export default {
 <style scoped lang="css">
 .footerTitle {
   display: table-cell;
-  height: 30px;
+  height: 3%;
   position: absolute;
   bottom: 0;
-
-  vertical-align: middle;
   font-size: 20px;
   width: 100vw;
   color: #fff;
