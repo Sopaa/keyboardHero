@@ -16,8 +16,12 @@ export default {
 
 <style scoped lang="css">
 .mainTitle {
+  display: table-cell;
+  height: 100px;
+  vertical-align: middle;
   font-size: 20px;
-  color: red;
+  width: 100vw;
+  color: #fff;
   background-color: #686868;
 }
 </style>
