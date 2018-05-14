@@ -1,22 +1,25 @@
 <template lang="html">
-  <h1 class="mainTitle"> {{ mainTitle }}</h1>
+  <h1 class="footerTitle"> {{ tarbaTitle }}</h1>
 </template>
 
 <script>
 export default {
-  name: 'Header',
+  name: 'Footer',
   data () {
     return {
-      mainTitle: 'Keyboard Hero made by Dorian & Pierre'
+      tarbaTitle: 'Dodo'
     }
   }
 }
 </script>
 
 <style scoped lang="css">
-.mainTitle {
+.footerTitle {
   display: table-cell;
-  height: 100px;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+
   vertical-align: middle;
   font-size: 20px;
   width: 100vw;

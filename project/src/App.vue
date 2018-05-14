@@ -1,16 +1,19 @@
 <template>
   <div id="app">
-    <top />
+    <top/>
+    <bot/>
   </div>
 </template>
 
 <script>
 import top from './components/top'
+import bot from './components/bot'
 
 export default {
   name: 'App',
   components: {
-    top
+    top,
+    bot
   }
 }
 </script>
